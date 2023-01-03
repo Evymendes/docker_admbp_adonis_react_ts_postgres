@@ -18,7 +18,7 @@ export const Sermons = () => {
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="single-latest-sermons mb-100">
                             <div className="sermons-thumbnail">
-                                <img src="img/bg-img/7.jpg" alt=""/>
+                                <img src="src/images/bg-img/7.jpg" alt=""/>
                                 <div className="sermons-date">
                                     <h6><span>10</span>MAR</h6>
                                 </div>
@@ -43,7 +43,7 @@ export const Sermons = () => {
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="single-latest-sermons mb-100">
                             <div className="sermons-thumbnail">
-                                <img src="img/bg-img/8.jpg" alt=""/>
+                                <img src="src/images/bg-img/8.jpg" alt=""/>
                                 <div className="sermons-date">
                                     <h6><span>11</span>MAY</h6>
                                 </div>
@@ -68,7 +68,7 @@ export const Sermons = () => {
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="single-latest-sermons mb-100">
                             <div className="sermons-thumbnail">
-                                <img src="img/bg-img/9.jpg" alt=""/>
+                                <img src="src/images/bg-img/9.jpg" alt=""/>
                                 <div className="sermons-date">
                                     <h6><span>15</span>MAY</h6>
                                 </div>

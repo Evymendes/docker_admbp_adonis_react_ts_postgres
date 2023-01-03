@@ -1,13 +1,8 @@
-//import { useState } from "react";
-import img1 from '../../../images/bg-img/1.jpg'
-import img2 from '../../../images/bg-img/2.jpg'
-
-//const [images, setImages] = useState([])
 
 export const Crose = () => {
     return (
         <section className="hero-area hero-post-slides owl-carousel">
-            <div className="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center" style={{ backgroundImage: `url(${img1})` }}>
+            <div className="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center" style={{ backgroundImage: "src/images/bg-img/1.jpg" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -21,7 +16,7 @@ export const Crose = () => {
                 </div>
             </div>
 
-            <div className="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center" style={{ backgroundImage: `url(${img2})` }}>
+            <div className="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center" style={{ backgroundImage: "src/images/bg-img/1.jpg" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

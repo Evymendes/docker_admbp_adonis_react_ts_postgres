@@ -4,7 +4,8 @@ import React from "react"
 export const Events = () => {
     return (
         <section className="upcoming-events-area section-padding-0-100">
-            <div className="upcoming-events-heading bg-img bg-overlay bg-fixed" style={{ backgroundImage: 'url(images/bg-img/1.jpg)' }}>
+            <div className="upcoming-events-heading bg-img bg-overlay bg-fixed" style={{ 
+                backgroundImage: 'url(src/images/bg-img/1.jpg)' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -26,7 +27,7 @@ export const Events = () => {
                                 <div className="single-slide">
                                     <div className="single-upcoming-events-area d-flex flex-wrap align-items-center">
                                         <div className="upcoming-events-thumbnail">
-                                            <img src="img/bg-img/23.jpg" alt=""/>
+                                            <img src="src/images/bg-img/23.jpg" alt=""/>
                                         </div>
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
@@ -47,7 +48,7 @@ export const Events = () => {
 
                                     <div className="single-upcoming-events-area d-flex flex-wrap align-items-center">
                                         <div className="upcoming-events-thumbnail">
-                                            <img src="img/bg-img/24.jpg" alt=""/>
+                                            <img src="src/images/bg-img/24.jpg" alt=""/>
                                         </div>
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
@@ -68,7 +69,7 @@ export const Events = () => {
 
                                     <div className="single-upcoming-events-area d-flex flex-wrap align-items-center">
                                         <div className="upcoming-events-thumbnail">
-                                            <img src="img/bg-img/25.jpg" alt=""/>
+                                            <img src="src/images/bg-img/25.jpg" alt=""/>
                                         </div>
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
@@ -91,7 +92,7 @@ export const Events = () => {
                                 <div className="single-slide">
                                     <div className="single-upcoming-events-area d-flex flex-wrap align-items-center">
                                         <div className="upcoming-events-thumbnail">
-                                            <img src="img/bg-img/23.jpg" alt=""/>
+                                            <img src="/src/images/bg-img/23.jpg" alt=""/>
                                         </div>
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
@@ -112,7 +113,7 @@ export const Events = () => {
 
                                     <div className="single-upcoming-events-area d-flex flex-wrap align-items-center">
                                         <div className="upcoming-events-thumbnail">
-                                            <img src="img/bg-img/24.jpg" alt=""/>
+                                            <img src="src/images/bg-img/24.jpg" alt=""/>
                                         </div>
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
@@ -133,7 +134,7 @@ export const Events = () => {
 
                                     <div className="single-upcoming-events-area d-flex flex-wrap align-items-center">
                                         <div className="upcoming-events-thumbnail">
-                                            <img src="img/bg-img/25.jpg" alt=""/>
+                                            <img src="src/images/bg-img/25.jpg" alt=""/>
                                         </div>
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">

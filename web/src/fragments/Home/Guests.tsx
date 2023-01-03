@@ -1,6 +1,6 @@
 export const Guests = () => {
     return (
-        <section className="call-to-action-area section-padding-100 bg-img bg-overlay" style={{ backgroundImage: 'url(../../../images/bg-img/6.jpg)' }}>
+        <section className="call-to-action-area section-padding-100 bg-img bg-overlay" style={{ backgroundImage: 'url(src/images/bg-img/6.jpg)' }}>
         <div className="container">
             <div className="row">
                 <div className="col-12">

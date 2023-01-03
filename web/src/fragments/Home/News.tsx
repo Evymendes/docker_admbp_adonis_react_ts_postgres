@@ -18,7 +18,7 @@ export const News = () => {
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="single-blog-post mb-100">
                             <div className="post-thumbnail">
-                                <a href="single-post.html"><img src="img/bg-img/10.jpg" alt=""/></a>
+                                <a href="single-post.html"><img src="src/images/bg-img/10.jpg" alt=""/></a>
                             </div>
                             <div className="post-content">
                                 <a href="single-post.html" className="post-title">
@@ -36,7 +36,7 @@ export const News = () => {
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="single-blog-post mb-100">
                             <div className="post-thumbnail">
-                                <a href="single-post.html"><img src="img/bg-img/11.jpg" alt=""/></a>
+                                <a href="single-post.html"><img src="src/images/bg-img/11.jpg" alt=""/></a>
                             </div>
                             <div className="post-content">
                                 <a href="single-post.html" className="post-title">
@@ -54,7 +54,7 @@ export const News = () => {
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="single-blog-post mb-100">
                             <div className="post-thumbnail">
-                                <a href="single-post.html"><img src="img/bg-img/12.jpg" alt=""/></a>
+                                <a href="single-post.html"><img src="src/images/bg-img/12.jpg" alt=""/></a>
                             </div>
                             <div className="post-content">
                                 <a href="single-post.html" className="post-title">

@@ -17,7 +17,7 @@ export const Intro = () => {
                 <div className="row about-content justify-content-center">
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="about-us-content mb-100">
-                            <img src="img/bg-img/3.jpg" alt="" />
+                            <img src="src/images/bg-img/3.jpg" alt="" />
                             <div className="about-text">
                                 <h4>Our Church</h4>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
@@ -28,7 +28,7 @@ export const Intro = () => {
 
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="about-us-content mb-100">
-                            <img src="img/bg-img/4.jpg" alt="" />
+                            <img src="src/images/bg-img/4.jpg" alt="" />
                             <div className="about-text">
                                 <h4>Our History</h4>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
@@ -39,7 +39,7 @@ export const Intro = () => {
 
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="about-us-content mb-100">
-                            <img src="img/bg-img/5.jpg" alt="" />
+                            <img src="src/images/bg-img/5.jpg" alt="" />
                             <div className="about-text">
                                 <h4>Our Sermons</h4>
                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
