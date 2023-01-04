@@ -8,7 +8,9 @@ import {
     About,
     Sermons,
     Event,
-    News
+    News,
+    //Live,
+    Contacts
 } from '../pages/frontend'
 
 export const NavegateFrontendRouter = createBrowserRouter([
@@ -20,8 +22,9 @@ export const NavegateFrontendRouter = createBrowserRouter([
     //{ path: '/events/details', element: <Event />, errorElement: <NotFound /> },
     { path: '/news', element: <News />, errorElement: <NotFound /> },
     //{ path: '/news/details', element: <News />, errorElement: <NotFound /> },
-
-    { path: '/', element: <></>, errorElement: <></> }
+    //{ path: '/live', element: <Live />, errorElement: <NotFound /> },
+    { path: '/contacts', element: <Contacts />, errorElement: <NotFound /> },
+    //{ path: '/', element: <></>, errorElement: <></> }
 ])
 
 export default NavegateFrontendRouter

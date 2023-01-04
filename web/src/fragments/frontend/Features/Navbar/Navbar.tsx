@@ -31,10 +31,11 @@ export const Navbar = () => {
                                             <li><Link to="/">Home</Link></li>      
                                             <li><Link to="/about">A Igreja</Link></li>                              
                                             <li><Link to="/sermons">Cultos</Link></li>
+                                            <li><Link to="/missions">Missões</Link></li>
                                             <li><Link to="/events">Eventos</Link></li>
                                             <li><Link to="/news">Notícias</Link></li>
                                             <li><Link to="/live">Ao Vivo</Link></li>
-                                            <li><Link to="/contact">Contatos</Link></li>
+                                            <li><Link to="/contacts">Contatos</Link></li>
                                         </ul>
 
                                         <div id="header-search"><i className="fa fa-search" aria-hidden="true"></i></div>
