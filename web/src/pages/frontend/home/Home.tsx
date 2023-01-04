@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import { Social, Navbar, Search, Crose, Intro, Guests, Footer, 
     Sermons, Gallery, News, Events, Subscribe, Preloader, Believe
-} from '../../fragments/frontend'
+} from '../../../fragments/frontend'
 
 export const Home = () => {
  

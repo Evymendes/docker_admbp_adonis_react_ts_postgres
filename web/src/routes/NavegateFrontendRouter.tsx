@@ -6,7 +6,7 @@ import { NotFound } from '../fragments/frontend/Response';
 import {
     Home,
     About
-} from '../pages'
+} from '../pages/frontend'
 
 export const NavegateFrontendRouter = createBrowserRouter([
     { path: '/', element: <Home />, errorElement: <NotFound /> },

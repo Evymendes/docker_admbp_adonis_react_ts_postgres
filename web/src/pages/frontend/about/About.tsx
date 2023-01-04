@@ -1,5 +1,5 @@
-import { Footer, Navbar, Search, Social } from "../../fragments/frontend"
-import { AboutUs, CallUs, ChooseUs, SubscribeUs, TeamMembers } from "../../fragments/frontend/About"
+import { Footer, Navbar, Search, Social } from "../../../fragments/frontend"
+import { AboutUs, CallUs, ChooseUs, SubscribeUs, TeamMembers } from "../../../fragments/frontend/About"
 
 export const About = () => {
 
