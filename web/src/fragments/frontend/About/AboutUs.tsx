@@ -5,7 +5,7 @@ export const AboutUs = () => {
     return (
         <section>
             <React.Fragment>
-            <Breadcrumb tobe="Home" togo="About"/>
+            <Breadcrumb from="Home" go="About"/>
                 <div className="about-us-area about-page section-padding-100">
                     <div className="container">
                         <div className="row align-items-center justify-content-between">

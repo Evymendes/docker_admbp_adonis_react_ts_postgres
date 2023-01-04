@@ -5,7 +5,7 @@ export const EventSearch = () => {
     return (
         <section>
             <React.Fragment>
-                <Breadcrumb tobe="Home" togo="Event"/>
+                <Breadcrumb from="Home" go="Event"/>
                 <div className="events-area section-padding-100">
                     <div className="container">
                         <div className="row">

@@ -7,14 +7,19 @@ import {
     Home,
     About,
     Sermons,
-    Event
+    Event,
+    News
 } from '../pages/frontend'
 
 export const NavegateFrontendRouter = createBrowserRouter([
     { path: '/', element: <Home />, errorElement: <NotFound /> },
     { path: '/about', element: <About />, errorElement: <NotFound /> },
     { path: '/sermons', element: <Sermons />, errorElement: <NotFound /> },
+    //{ path: '/sermons/details', element: <Sermons />, errorElement: <NotFound /> },
     { path: '/events', element: <Event />, errorElement: <NotFound /> },
+    //{ path: '/events/details', element: <Event />, errorElement: <NotFound /> },
+    { path: '/news', element: <News />, errorElement: <NotFound /> },
+    //{ path: '/news/details', element: <News />, errorElement: <NotFound /> },
 
     { path: '/', element: <></>, errorElement: <></> }
 ])

@@ -1,6 +1,5 @@
-import { Social, Navbar, Search, Footer
+import { Social, Navbar, Search, Footer, EventSearch, SubscribeEvent
 } from '../../../fragments/frontend'
-import { EventSearch, SubscribeEvent } from '../../../fragments/frontend/Events'
 
 export const Event = () => {
  

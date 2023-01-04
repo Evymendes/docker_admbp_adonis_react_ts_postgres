@@ -1,8 +1,7 @@
-import { Social, Navbar, Search, Footer
+import { Social, Navbar, Search, Footer, NewsArea, SubscribeNews
 } from '../../../fragments/frontend'
-import { LatestSermons, SermonsArea, SubscribeSermons } from '../../../fragments/frontend'
 
-export const Sermons = () => {
+export const News = () => {
  
     return (
         <section>
@@ -12,9 +11,8 @@ export const Sermons = () => {
                 <Search />
             </header>
             <main>
-                <SermonsArea />
-                <LatestSermons />
-                <SubscribeSermons />
+                <NewsArea />
+                <SubscribeNews />
             </main>
             <footer className="footer-area">
                 <Footer />

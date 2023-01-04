@@ -5,7 +5,7 @@ export const SermonsArea = () => {
     return (
         <section>
             <React.Fragment>
-                <Breadcrumb tobe="Home" togo="Sermons" />
+                <Breadcrumb from="Home" go="Sermons" />
                 <div className="sermons-content-area section-padding-100-0">
                     <div className="container">
                         <div className="row">

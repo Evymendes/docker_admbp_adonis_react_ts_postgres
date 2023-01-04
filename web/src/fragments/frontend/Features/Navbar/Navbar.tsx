@@ -32,7 +32,7 @@ export const Navbar = () => {
                                             <li><Link to="/about">A Igreja</Link></li>                              
                                             <li><Link to="/sermons">Cultos</Link></li>
                                             <li><Link to="/events">Eventos</Link></li>
-                                            <li><Link to="/blog">Notícias</Link></li>
+                                            <li><Link to="/news">Notícias</Link></li>
                                             <li><Link to="/live">Ao Vivo</Link></li>
                                             <li><Link to="/contact">Contatos</Link></li>
                                         </ul>
