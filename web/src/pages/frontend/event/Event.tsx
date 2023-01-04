@@ -1,9 +1,9 @@
-import { Footer, Navbar, Search, Social, 
-    AboutUs, CallUs, ChooseUs, SubscribeUs, TeamMembers 
-} from "../../../fragments/frontend"
+import { Social, Navbar, Search, Footer
+} from '../../../fragments/frontend'
+import { EventSearch, SubscribeEvent } from '../../../fragments/frontend/Events'
 
-export const About = () => {
-
+export const Event = () => {
+ 
     return (
         <section>
             <header className="header-area">
@@ -12,11 +12,8 @@ export const About = () => {
                 <Search />
             </header>
             <main>
-                <AboutUs />
-                <CallUs />
-                <ChooseUs />
-                <TeamMembers />
-                <SubscribeUs />     
+                <EventSearch />
+                <SubscribeEvent />
             </main>
             <footer className="footer-area">
                 <Footer />

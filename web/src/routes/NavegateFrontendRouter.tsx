@@ -5,12 +5,14 @@ import { NotFound } from '../fragments/frontend/Response';
 
 import {
     Home,
-    About
+    About,
+    Event
 } from '../pages/frontend'
 
 export const NavegateFrontendRouter = createBrowserRouter([
     { path: '/', element: <Home />, errorElement: <NotFound /> },
     { path: '/about', element: <About />, errorElement: <NotFound /> },
+    { path: '/events', element: <Event />, errorElement: <NotFound /> },
 
     { path: '/', element: <></>, errorElement: <></> }
 ])

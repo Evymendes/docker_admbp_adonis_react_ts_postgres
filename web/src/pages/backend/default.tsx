@@ -34,3 +34,28 @@ export const {} = () => {
         </section>
     )
 }
+/*
+
+import { Social, Navbar, Search, Footer
+} from '../../../fragments/frontend'
+
+export const {} = () => {
+ 
+    return (
+        <section>
+            <header className="header-area">
+                <Social />
+                <Navbar />
+                <Search />
+            </header>
+            <main>
+                
+            </main>
+            <footer className="footer-area">
+                <Footer />
+            </footer> 
+        </section>
+    )
+}
+
+*/

@@ -1,4 +1,5 @@
-export * from './Navbar'
+export * from './Features/Navbar'
 export * from './Home'
+export * from './About'
 export * from './Response'
-export * from './Footer'
+export * from './Features/Footer'
