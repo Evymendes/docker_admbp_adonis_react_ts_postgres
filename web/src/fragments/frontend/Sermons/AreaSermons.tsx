@@ -1,7 +1,7 @@
 import React from "react"
 import { Breadcrumb } from "../../../components/Breadcrumb"
 
-export const SermonsArea = () => {
+export const AreaSermons = () => {
     return (
         <section>
             <React.Fragment>

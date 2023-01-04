@@ -1,6 +1,7 @@
 export * from './Home'
 export * from './About'
 export * from './Sermons'
+export * from './Missions'
 export * from './Events'
 export * from './News'
 export * from './Contacts'
