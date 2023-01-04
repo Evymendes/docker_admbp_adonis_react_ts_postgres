@@ -1,9 +1,11 @@
 import React from "react"
+import { Breadcrumb } from "../../../components/Breadcrumb"
 
 export const AboutUs = () => {
     return (
         <section>
             <React.Fragment>
+            <Breadcrumb tobe="Home" togo="About"/>
                 <div className="about-us-area about-page section-padding-100">
                     <div className="container">
                         <div className="row align-items-center justify-content-between">

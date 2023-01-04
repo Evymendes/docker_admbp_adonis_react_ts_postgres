@@ -23,7 +23,7 @@ export const {} = () => {
     return (
         <section className="header-area">
             <header >
-                    d
+                
             </header>
             <main>
                     
