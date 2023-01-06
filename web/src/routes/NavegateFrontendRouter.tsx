@@ -10,7 +10,7 @@ import {
     Missions,
     Event,
     News,
-    //Live,
+    Live,
     Contacts
 } from '../pages/frontend'
 
@@ -24,7 +24,7 @@ export const NavegateFrontendRouter = createBrowserRouter([
     //{ path: '/events/details', element: <Event />, errorElement: <NotFound /> },
     { path: '/news', element: <News />, errorElement: <NotFound /> },
     //{ path: '/news/details', element: <News />, errorElement: <NotFound /> },
-    //{ path: '/live', element: <Live />, errorElement: <NotFound /> },
+    { path: '/live', element: <Live />, errorElement: <NotFound /> },
     { path: '/contacts', element: <Contacts />, errorElement: <NotFound /> },
     //{ path: '/', element: <></>, errorElement: <></> }
 ])

@@ -7,7 +7,7 @@ export const ContactMaps = () => {
             <React.Fragment>
                 <Breadcrumb from="Home" go="Contact"/>
                 <div className="map-area mt-30">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowFullScreen ></iframe>
+                    <iframe className="mb-5 mb-lg-0 border border-left-danger shadow-lg" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14697.932513771693!2d-43.2010707!3d-22.9324278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf961e3a018492334!2sADMBP%20-%20Assembl%C3%A9ia%20de%20Deus%20Minist%C3%A9rio%20Bar%C3%A3o%20de%20Petr%C3%B3polis!5e0!3m2!1sen!2sbr!4v1589473638158!5m2!1sen!2sbr" style={{border:"0", width: "100%", height: "384px" }} allowFullScreen aria-hidden="false" tabIndex={0}></iframe>
                 </div>
             </React.Fragment>
         </section>

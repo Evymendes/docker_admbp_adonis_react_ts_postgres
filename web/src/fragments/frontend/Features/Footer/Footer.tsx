@@ -55,9 +55,9 @@ export const Footer = () => {
                                     <h5 className="widget-title">Contact Us</h5>
 
                                     <div className="contact-information">
-                                        <p><i className="fa fa-map-marker" aria-hidden="true"></i> 40 Baria Sreet, NewYork City, US</p>
-                                        <a href="callto:001-1234-88888"><i className="fa fa-phone" aria-hidden="true"></i> 001-1234-88888</a>
-                                        <a href="mailto:info.deercreative@gmail.com"><i className="fa fa-envelope" aria-hidden="true"></i> info.deercreative@gmail.com</a>
+                                        <p><i className="fa fa-map-marker" aria-hidden="true"></i> Rua Barão de Petrópolis, 747 - Rio Comprido, Rio de Janeiro.</p>
+                                        <a href="callto:001-1234-88888"><i className="fa fa-phone" aria-hidden="true"></i> +55 021 2502-3936</a>
+                                        <a href="mailto:secretaria@admbp.com.br"><i className="fa fa-envelope" aria-hidden="true"></i> secretaria@admbp.com.br</a>
                                         <p><i className="fa fa-clock-o" aria-hidden="true"></i> Mon - Fri: 08.00am - 18.00pm</p>
                                     </div>
 
@@ -71,10 +71,10 @@ export const Footer = () => {
                 <div className="copywrite-area">
                     <div className="container h-100">
                         <div className="row h-100 align-items-center flex-wrap">
-                            <div className="col-12 col-md-6">
+                            <div className="col-12 col-md-12 mt-3 mb-2">
                                 <div className="copywrite-text">
-                                    <p>
-                                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib --- Downloaded from <a href="https://themeslab.org/" target="_blank">Themeslab</a></a>
+                                    <p className="text-center">
+                                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | ADMBP<i className="fa fa-heart-o" aria-hidden="true"></i>by <a href="https://syqueira.com" target="_blank"><strong className="text-sucess"> S</strong>yqueira Enterprise</a>
                                     </p>
                                 </div>
                             </div>

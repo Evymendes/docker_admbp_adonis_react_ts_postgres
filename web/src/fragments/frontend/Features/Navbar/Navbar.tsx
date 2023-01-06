@@ -10,9 +10,9 @@ export const Navbar = () => {
                         <div className="container">
                             <nav className="classy-navbar justify-content-between" id="croseNav">
 
-                                <div className="col-3">
+                                <div className="col-2">
                                     <Link to="/" className="nav-brand">
-                                        <img className="col-3" src="src/images/logo/logo_admbp_blue_red.png" alt=""/>
+                                        <img className="col-5" src="src/images/logo/logo_admbp_blue_red.png" alt=""/>
                                         <h6>ADMBP</h6>
                                     </Link>
                                 </div>
@@ -37,8 +37,6 @@ export const Navbar = () => {
                                             <li><Link to="/live">Ao Vivo</Link></li>
                                             <li><Link to="/contacts">Contatos</Link></li>
                                         </ul>
-
-                                        <div id="header-search"><i className="fa fa-search" aria-hidden="true"></i></div>
                                         <Link to="#" className="btn crose-btn header-btn">Login</Link>
                                     </div>
                                 </div>
