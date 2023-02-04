@@ -1,5 +1,7 @@
-
 import React from "react"
+//import * as dotenv from "dotenv";
+//dotenv.config();
+//const name = process.env.REACT_NAME
 
 export const Intro = () => {
     return (
@@ -10,8 +12,9 @@ export const Intro = () => {
                         <div className="row">
                             <div className="col-12">
                                 <div className="section-heading">
-                                    <h2>Welcome To Church</h2>
-                                    <p>A church isn't a building—it's the people. We meet in locations around the United States and globally at Life.Church Online. No matter where you join us.</p>
+                                    <h2> Seja Bem Vindo <br/>ADMBP</h2>
+                                    <p>
+                                    Assembleia de Deus é a designação dada para uma denominação de igrejas evangélicas cristãs; As Assembleias de Deus estão inseridas nas doutrinas do Protestantismo e Pentecostalismo. Existem várias Assembleias de Deus com nomes diferentes, e se trata da maior denominação evangélica no Brasil.</p>
                                 </div>
                             </div>
                         </div>
@@ -21,7 +24,7 @@ export const Intro = () => {
                                 <div className="about-us-content mb-100">
                                     <img src="src/images/bg-img/3.jpg" alt="" />
                                     <div className="about-text">
-                                        <h4>Our Church</h4>
+                                        <h4>A Igreja</h4>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                                         <a href="#">Read More <i className="fa fa-angle-double-right"></i></a>
                                     </div>
@@ -32,7 +35,7 @@ export const Intro = () => {
                                 <div className="about-us-content mb-100">
                                     <img src="src/images/bg-img/4.jpg" alt="" />
                                     <div className="about-text">
-                                        <h4>Our History</h4>
+                                        <h4>A História</h4>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                                         <a href="#">Read More <i className="fa fa-angle-double-right"></i></a>
                                     </div>
@@ -43,7 +46,7 @@ export const Intro = () => {
                                 <div className="about-us-content mb-100">
                                     <img src="src/images/bg-img/5.jpg" alt="" />
                                     <div className="about-text">
-                                        <h4>Our Sermons</h4>
+                                        <h4>O Cultos</h4>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                                         <a href="#">Read More <i className="fa fa-angle-double-right"></i></a>
                                     </div>

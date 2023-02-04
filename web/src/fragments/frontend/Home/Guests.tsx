@@ -4,7 +4,7 @@ export const Guests = () => {
     return (
         <div>
             <React.Fragment>
-                <section className="call-to-action-area section-padding-100 bg-img bg-overlay" style={{ backgroundImage: 'url(src/images/bg-img/6.jpg)' }}>
+                <section className="call-to-action-area section-padding-100 bg-img bg-overlay" style={{ backgroundImage: 'url(src/images/rio_de_janeiro.jpg)' }}>
                     <div className="container">
                         <div className="row">
                             <div className="col-12">

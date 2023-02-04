@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { Social, Navbar, Search, Crose, Intro, Guests, Footer, 
+import { Social, Navbar, Search, Crose, Logos, Intro, Guests, Footer, 
     Sermons, Gallery, News, Events, Subscribe, Preloader, Believe
 } from '../../../fragments/frontend'
 
@@ -13,7 +13,6 @@ export const Home = () => {
                 <Search />
             </header>
             <main>
-                <Crose />
                 <Intro />
                 <Guests />
                 <Sermons />

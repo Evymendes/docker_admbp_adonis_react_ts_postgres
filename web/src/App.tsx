@@ -1,16 +1,13 @@
-import { useState } from 'react'
-
 import { NavegateFrontendRouter, NavegateBackendRouter } from './routes'
-import { BrowserRouter, RouterProvider } from 'react-router-dom'
-import { NotFound } from './fragments'
+import { RouterProvider } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     // This is router pages!!!
     <div className="App">
-      <RouterProvider router={ NavegateFrontendRouter } />
+      <RouterProvider router={ NavegateFrontendRouter }/>
+      <RouterProvider router={ NavegateBackendRouter }/>
     </div>
   )
 }

@@ -5,7 +5,7 @@ export const Crose = () => {
         <div>
             <React.Fragment>
                 <section className="hero-area hero-post-slides owl-carousel">
-                    <div className="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center" style={{ backgroundImage: "src/images/bg-img/1.jpg" }}>
+                    <div className="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center" style={{ backgroundImage: 'url(src/images/bg-img/6.jpg)' }}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
@@ -19,7 +19,7 @@ export const Crose = () => {
                         </div>
                     </div>
 
-                    <div className="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center" style={{ backgroundImage: "src/images/bg-img/1.jpg" }}>
+                    <div className="single-hero-slide bg-img bg-overlay d-flex align-items-center justify-content-center" style={{ backgroundImage: 'url(src/images/bg-img/3.jpg)' }}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
