@@ -37,7 +37,7 @@ export const Navbar = () => {
                                             <li><Link to="/live">Ao Vivo</Link></li>
                                             <li><Link to="/contacts">Contatos</Link></li>
                                         </ul>
-                                        <Link to="#" className="btn crose-btn header-btn">Login</Link>
+                                        <Link to={"/login"} className="btn btn-danger text-line">Login</Link>
                                     </div>
                                 </div>
                             </nav>

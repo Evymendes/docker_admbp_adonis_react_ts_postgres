@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
+import { Login, Register } from "../components/Account";
+import { Recover } from "../components/Account/Recover";
 import { Dashboard } from "../fragments";
 import { NotFound } from '../fragments/frontend/Response';
 
@@ -34,11 +36,11 @@ export const NavegateRouter = createBrowserRouter([
 
 
     //#region Account
-
+    { path: '/login', element: <Login/>, errorElement: <NotFound /> },
+    { path: '/register', element: <Register/>, errorElement: <NotFound /> },
+    { path: '/recover', element: <Recover/>, errorElement: <NotFound /> },
     //#endregion Account
-    { path: '/sign_up', element: <></>, errorElement: <NotFound /> },
-    { path: '/sign_in', element: <></>, errorElement: <NotFound /> },
-    { path: '/sign_out', element: <></>, errorElement: <NotFound /> },
+    
 
     //#region Backend
     { path: '/dashboard/', element: <Dashboard />, errorElement: <NotFound /> },
