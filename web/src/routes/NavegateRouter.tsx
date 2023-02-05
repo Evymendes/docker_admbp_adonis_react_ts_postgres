@@ -32,6 +32,14 @@ export const NavegateRouter = createBrowserRouter([
     //{ path: '/', element: <></>, errorElement: <></> }
     //#endregion Frontend
 
+
+    //#region Account
+
+    //#endregion Account
+    { path: '/sign_up', element: <></>, errorElement: <NotFound /> },
+    { path: '/sign_in', element: <></>, errorElement: <NotFound /> },
+    { path: '/sign_out', element: <></>, errorElement: <NotFound /> },
+
     //#region Backend
     { path: '/dashboard/', element: <Dashboard />, errorElement: <NotFound /> },
 
