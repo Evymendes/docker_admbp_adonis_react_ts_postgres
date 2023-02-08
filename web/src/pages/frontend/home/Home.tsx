@@ -13,6 +13,7 @@ export const Home = () => {
                 <Search />
             </header>
             <main>
+                <Crose />
                 <Intro />
                 <Guests />
                 <Sermons />

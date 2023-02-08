@@ -1,11 +1,4 @@
-import React from "react"
-
-export const Dashboard = () => {
-    return (
-        <section>
-            <React.Fragment>
-                <div><h1>Dashboard</h1></div>
-            </React.Fragment>
-        </section>
-    )
-}
+export * from './FirstCards'
+export * from './SalesCharts'
+export * from './EarningsCharts'
+export * from './LeaderTable'

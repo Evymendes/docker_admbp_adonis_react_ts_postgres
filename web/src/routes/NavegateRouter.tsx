@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 import { Login, Register } from "../components/Account";
 import { Recover } from "../components/Account/Recover";
-import { Dashboard } from "../fragments";
 import { NotFound } from '../fragments/frontend/Response';
+import { Dashboard } from "../pages/backend";
 
 import {
     Home,

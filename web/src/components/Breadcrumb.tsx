@@ -1,7 +1,5 @@
 import {} from "react"
 
-
-
 export const Breadcrumb = (props: any) => {
     return (
         <div className="breadcrumb-area">

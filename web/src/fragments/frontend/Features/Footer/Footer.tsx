@@ -74,7 +74,7 @@ export const Footer = () => {
                             <div className="col-12 col-md-12 mt-3 mb-2">
                                 <div className="copywrite-text">
                                     <p className="text-center">
-                                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | ADMBP<i className="fa fa-heart-o" aria-hidden="true"></i>by <a href="https://syqueira.com" target="_blank"><strong className="text-sucess"> S</strong>yqueira Enterprise</a>
+                                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | ADMBP<i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://syqueira.com" target="_blank"><strong className="text-sucess"> S</strong>yqueira Enterprise</a>
                                     </p>
                                 </div>
                             </div>
