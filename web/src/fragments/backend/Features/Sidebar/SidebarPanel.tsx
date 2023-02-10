@@ -8,43 +8,42 @@ export const SidebarPanel = () => {
                     <div className="scroll-sidebar" data-sidebarbg="skin6">
                         <nav className="sidebar-nav">
                             <ul id="sidebarnav">
-                                <li className="sidebar-item"> <a className="sidebar-link sidebar-link" href="index.html"
+                                <li className="sidebar-item"><a className="sidebar-link sidebar-link" href="index.html"
                                         aria-expanded="false"><i data-feather="home" className="feather-icon"></i><span
                                             className="hide-menu">Dashboard</span></a></li>
                                 <li className="list-divider"></li>
-                                <li className="nav-small-cap"><span className="hide-menu">Applications</span></li>
+                                <li className="nav-small-cap"><span className="hide-menu">Agenda</span></li>
 
                                 <li className="sidebar-item"> <a className="sidebar-link" href="ticket-list.html"
                                         aria-expanded="false"><i data-feather="tag" className="feather-icon"></i><span
-                                            className="hide-menu">Ticket List
-                                        </span></a>
-                                </li>
+                                            className="hide-menu">Noticias</span></a></li>
                                 <li className="sidebar-item"> <a className="sidebar-link sidebar-link" href="app-chat.html"
                                         aria-expanded="false"><i data-feather="message-square" className="feather-icon"></i><span
-                                            className="hide-menu">Chat</span></a></li>
+                                            className="hide-menu">Eventos</span></a></li>
                                 <li className="sidebar-item"> <a className="sidebar-link sidebar-link" href="app-calendar.html"
                                         aria-expanded="false"><i data-feather="calendar" className="feather-icon"></i><span
-                                            className="hide-menu">Calendar</span></a></li>
-
+                                            className="hide-menu">Calendário</span></a></li>
                                 <li className="list-divider"></li>
-                                <li className="nav-small-cap"><span className="hide-menu">Components</span></li>
+                                <li className="nav-small-cap"><span className="hide-menu">Profile</span></li>
                                 <li className="sidebar-item"> <a className="sidebar-link has-arrow" href="javascript:void(0)"
                                         aria-expanded="false"><i data-feather="file-text" className="feather-icon"></i><span
-                                            className="hide-menu">Forms </span></a>
+                                            className="hide-menu">Igreja</span></a>
                                     <ul aria-expanded="false" className="collapse  first-level base-level-line">
                                         <li className="sidebar-item"><a href="form-inputs.html" className="sidebar-link"><span
-                                                    className="hide-menu"> Form Inputs
+                                                    className="hide-menu"> Novo Cadastro
                                                 </span></a>
                                         </li>
                                         <li className="sidebar-item"><a href="form-input-grid.html" className="sidebar-link"><span
-                                                    className="hide-menu"> Form Grids
+                                                    className="hide-menu"> Visualizar Cadastro
                                                 </span></a>
                                         </li>
-                                        <li className="sidebar-item"><a href="form-checkbox-radio.html" className="sidebar-link"><span
-                                                    className="hide-menu"> Checkboxes &
-                                                    Radios
+                                        {
+                                            /*<li className="sidebar-item"><a href="form-checkbox-radio.html" className="sidebar-link"><span
+                                                className="hide-menu"> Checkboxes &
+                                                Radios
                                                 </span></a>
-                                        </li>
+                                            </li>*/
+                                        }
                                     </ul>
                                 </li>
                                 <li className="sidebar-item"> <a className="sidebar-link has-arrow" href="javascript:void(0)"

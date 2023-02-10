@@ -12,8 +12,8 @@ export const NavbarPanel = () => {
                         <div className="navbar-brand">
                             <a href="index.html">
                                 <b className="logo-icon">
-                                    <img src="/src/content/backend/assets/images/logo-icon.png" alt="homepage" className="dark-logo" />
-                                    <img src="/src/content/backend/assets/images/logo-icon.png" alt="homepage" className="light-logo" />
+                                    <img src="/src/images/logo/logo_admbp_blue_red.svg" alt="homepage" className="dark-logo col-3" />
+                                    <img src="/src/images/logo/logo_admbp_black.svg" alt="homepage" className="light-logo col-3" />
                                 </b>
                                 <span className="logo-text">
                                     <img src="/src/content/backend/assets/images/logo-text.png" alt="homepage" className="dark-logo" />
