@@ -43,6 +43,7 @@ export const NavegateRouter = createBrowserRouter([
     
 
     //#region Backend
+    { path: '/dashboard/', element: <Dashboard/>, errorElement: <NotFound /> },
     { path: '/admin/dashboard/', element: <Dashboard/>, errorElement: <NotFound /> },
     // { path: '/admin/dashboard/', element: <Dashboard/>, errorElement: <NotFound /> },
 

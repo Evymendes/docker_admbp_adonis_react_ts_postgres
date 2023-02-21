@@ -16,8 +16,8 @@ export const NavbarPanel = () => {
                                     <img src="/src/images/logo/logo_admbp_black.svg" alt="homepage" className="light-logo col-3" />
                                 </b>
                                 <span className="logo-text">
-                                    <img src="/src/content/backend/assets/images/logo-text.png" alt="homepage" className="dark-logo" />
-                                    <img src="/src/content/backend/assets/images/logo-light-text.png" className="light-logo" alt="homepage" />
+                                    <h2 className="dark-logo">ADMBP</h2>
+                                    <h2 className="light-logo" >ADMBP</h2>
                                 </span>
                             </a>
                         </div>                    
