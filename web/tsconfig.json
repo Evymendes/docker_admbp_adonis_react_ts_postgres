@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "src/routes/.old/.NavegateBackendRouter.tsx", "src/content/js/jquery/jquery-2.2.4.min.js", "src/routes/.NavegateFrontendRouter.tsx"],
+  "include": ["src", "src/routes/.old/.NavegateBackendRouter.tsx", "src/contents/js/jquery/jquery-2.2.4.min.js", "src/routes/.NavegateFrontendRouter.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
